@@ -38,11 +38,15 @@ const languages = [
 const skills = [
   { name: "International Law", level: 90 },
   { name: "European Law", level: 85 },
-  { name: "Human Rights", level: 95 },
-  { name: "Refugee Law", level: 88 },
-  { name: "International Humanitarian Law", level: 82 },
-  { name: "Legal Research", level: 92 },
-  { name: "Academic Writing", level: 90 },
+  { name: "Human Rights Law", level: 95 },
+  { name: "Immigration Law", level: 88 },
+  { name: "Dutch Public Law", level: 85 },
+  { name: "Dutch Private Law", level: 82 },
+  { name: "Legal Writing", level: 92 },
+  { name: "Legal Research", level: 90 },
+  { name: "Legal Contract Review", level: 88 },
+  { name: "Legal Advice", level: 90 },
+  { name: "Legal Administration", level: 85 },
   { name: "Analytical Thinking", level: 95 },
 ];
 

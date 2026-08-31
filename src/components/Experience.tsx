@@ -1,18 +1,30 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Users, BookOpen, Coffee } from "lucide-react";
+import { Briefcase, Users, BookOpen, Scale } from "lucide-react";
 
 const experiences = [
   {
-    period: "September 2022 - present",
-    title: "Volunteer Legal Assistant",
-    company: "VluchtelingenWerk (Dutch Refugee Council)",
-    location: "Netherlands",
-    description: "Advising and supporting refugees on legal matters, with a focus on international refugee law.",
-    icon: Users,
+    period: "September 2025 - Present",
+    title: "Legal Advisor",
+    company: "Groninger Studentenbond",
+    location: "Groningen, Netherlands",
+    description: "Providing legal advice on contract review, Dutch public and private law matters to students.",
+    icon: Scale,
     current: true,
     color: "from-[var(--accent)]/20 to-transparent",
+    skills: ["Legal Contract Review", "Dutch Public Law", "Dutch Private Law", "Legal Advice"],
+  },
+  {
+    period: "August 2025 - February 2026",
+    title: "Legal Intern - Family Reunification Department",
+    company: "VluchtelingenWerk Nederland",
+    location: "Groningen, Netherlands",
+    description: "Handling family reunification cases, providing legal support and administration for refugees.",
+    icon: Users,
+    current: false,
+    color: "from-blue-500/10 to-transparent",
+    skills: ["Legal Writing", "Legal Administration", "Human Rights Law", "Dutch Public Law", "European Law", "Legal Advice", "Immigration Law"],
   },
   {
     period: "September 2022 - November 2022",
