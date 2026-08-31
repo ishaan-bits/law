@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Users, BookOpen, Scale } from "lucide-react";
+import { Briefcase, Users, BookOpen, Coffee, Scale } from "lucide-react";
 
 const experiences = [
   {
