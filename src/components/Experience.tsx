@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Users, BookOpen, Coffee, Anchor } from "lucide-react";
+import { Briefcase, Users, BookOpen, Coffee } from "lucide-react";
 
 const experiences = [
   {
@@ -13,16 +13,6 @@ const experiences = [
     icon: Users,
     current: true,
     color: "from-[var(--accent)]/20 to-transparent",
-  },
-  {
-    period: "May 2023 - September 2023",
-    title: "Host / Bartender",
-    company: "Flagship",
-    location: "Amsterdam",
-    description: "Entertaining and serving guests on boat tours through the Amsterdam canals.",
-    icon: Anchor,
-    current: false,
-    color: "from-blue-500/10 to-transparent",
   },
   {
     period: "September 2022 - November 2022",
