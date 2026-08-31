@@ -100,7 +100,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-[var(--muted)] tracking-wider uppercase">LinkedIn</p>
-                  <p className="text-lg font-medium">linkedin.com/in/sterrehoving</p>
+                  <a href="https://www.linkedin.com/in/sterre-hoving-0b5b10212/" target="_blank" rel="noopener noreferrer" className="text-lg font-medium hover:text-[var(--accent)] transition-colors">linkedin.com/in/sterre-hoving-0b5b10212</a>
                 </div>
               </motion.div>
             </div>
