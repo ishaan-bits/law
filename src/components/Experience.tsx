@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Users, BookOpen, Coffee, Scale } from "lucide-react";
+import { Briefcase, Users, BookOpen, Coffee, Anchor, Scale } from "lucide-react";
 
 const experiences = [
   {
@@ -25,6 +25,16 @@ const experiences = [
     current: false,
     color: "from-blue-500/10 to-transparent",
     skills: ["Legal Writing", "Legal Administration", "Human Rights Law", "Dutch Public Law", "European Law", "Legal Advice", "Immigration Law"],
+  },
+  {
+    period: "May 2023 - September 2023",
+    title: "Host / Bartender",
+    company: "Flagship",
+    location: "Amsterdam",
+    description: "Entertaining and serving guests on boat tours through the Amsterdam canals.",
+    icon: Anchor,
+    current: false,
+    color: "from-blue-500/10 to-transparent",
   },
   {
     period: "September 2022 - November 2022",
