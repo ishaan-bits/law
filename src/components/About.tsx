@@ -98,7 +98,7 @@ export default function About() {
           >
             <div className="space-y-6">
               <p className="text-xl leading-relaxed text-[var(--foreground)]">
-                I am a driven law student at the <span className="text-[var(--accent)]">University of Groningen</span>, 
+                I am a driven law student at the                 <a href="https://www.rug.nl/" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline transition-all">University of Groningen</a>, 
                 with a deep passion for international and European law. My interest in justice and human rights 
                 has shaped who I am today.
               </p>
@@ -108,7 +108,7 @@ export default function About() {
                 certificates strengthened my passion for languages and cultures.
               </p>
               <p className="text-lg leading-relaxed text-[var(--muted)]">
-                Alongside my studies, I actively volunteer at <span className="text-[var(--accent)]">VluchtelingenWerk</span> 
+                Alongside my studies, I actively volunteer at                 <a href="https://www.vluchtelingenwerk.nl/" target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] hover:underline transition-all">VluchtelingenWerk</a> 
                 {" "}(Dutch Refugee Council), where I apply my legal knowledge to help refugees. This experience 
                 reinforces my conviction that law can be a powerful tool for social change.
               </p>
